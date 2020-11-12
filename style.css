@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(116, 187, 219),rgb(3, 43, 116));
+    font-family: sans-serif;
+    color: seashell;
+
+}
+
+.location, .temperature{
+    height:30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+    
+}
+
+.degree-section {
+    font-size: 40px;
+    
+}
+
+
+.search {
+    color:rgba(3, 43, 116);
+    background-color: seashell;
+    border-radius: 8px;
+    border-style: none;  
+}
+
+.search-bar {
+    display: flex;
+    flex-wrap: nowrap; 
+    max-height: 18px;
+}
+
+.input {
+    border: solid 2px seashell;
+    background-color: inherit;
+    letter-spacing: 0.4px;
+    color: seashell;
+    padding-left: 4px;
+    margin:0 5px 0 5px;
+}
+
+.btn {
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+    
+}
+
+
+
